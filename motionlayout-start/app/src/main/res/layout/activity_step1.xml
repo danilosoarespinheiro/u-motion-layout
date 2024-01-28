@@ -17,7 +17,9 @@
 <androidx.constraintlayout.motion.widget.MotionLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        app:layoutDescription="@xml/step1"
         android:layout_height="match_parent">
 
     <ImageView
@@ -28,6 +30,6 @@
             android:tint="?colorSecondary"
             android:contentDescription="@string/star"
             android:layout_margin="30dp"
-    />
+        tools:ignore="UseAppTint" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
